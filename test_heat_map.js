@@ -22,7 +22,7 @@ looker.plugins.visualizations.add({
      * data is passed to it.
      **/
     create: function(element, config){
-        element.innerHTML = "<h1>Ready to render!</h1>";
+        element.innerHTML = "<h1>Ready to render!!!</h1>";
     },
    
     /**
@@ -56,7 +56,7 @@ looker.plugins.visualizations.add({
        // append the svg object to the body of the page
        // append a 'group' element to 'svg'
        // moves the 'group' element to the top left margin
-       element.innerHTML = ""
+       element.innerHTML = "<h1>Ready to be updated!</h1>"
        var svg = d3.select("#vis").append("svg")
            .attr("width", width + margin.left + margin.right)
            .attr("height", height + margin.top + margin.bottom)
