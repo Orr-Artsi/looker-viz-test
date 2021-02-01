@@ -22,7 +22,7 @@ looker.plugins.visualizations.add({
      * data is passed to it.
      **/
     create: function(element, config){
-        element.innerHTML = "<h1>Ready to render!!!</h1>";
+        element.innerHTML = "<h1>Ready</h1>";
     },
    
     /**
